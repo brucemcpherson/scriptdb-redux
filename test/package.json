@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test scriptdb redux - also installs gas-fakes for local compatibility testing",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "node testbasic.js && node testcompatibility.js && node testadvanced.js && node testsharing.js"
+  },
+  "dependencies": {
+    "@mcpher/gas-fakes": "latest",
+    "@mcpher/unit": "latest",
+    "@sindresorhus/is": "latest",
+    "@mcpher/scriptdb-redux": "file:../"
+  }
+}
