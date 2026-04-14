@@ -1,0 +1,9 @@
+**/node_modules
+gaslib
+testongas
+**/.env
+**/.clasp.json
+.gitignore
+.npmignore
+*.bash
+test

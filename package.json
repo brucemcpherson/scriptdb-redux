@@ -1,5 +1,5 @@
 {
-  "name": "scriptdb-redux",
+  "name": "@mcpher/scriptdb-redux",
   "version": "1.0.0",
   "description": "scriptdb redux - a resurection of the original apps script scriptdb",
   "license": "ISC",
@@ -7,7 +7,8 @@
   "type": "module",
   "main": "./src/index.js",
   "scripts": {
-    "test": "cd test && npm run test"
+    "test": "cd test && npm run test",
+    "pub": "npm publish --access public"
   },
   "dependencies": {
     "@mcpher/gas-flex-cache": "latest"
