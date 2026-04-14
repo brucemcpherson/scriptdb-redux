@@ -1,16 +1,18 @@
 {
   "name": "@mcpher/scriptdb-redux",
   "version": "1.0.0",
-  "description": "scriptdb redux - a resurection of the original apps script scriptdb",
-  "license": "ISC",
-  "author": "",
+  "description": "scriptdb redux - a resurection of the original, now deprecated, apps script scriptdb",
+  "license": "MIT",
+  "author": "bruce mcpherson",
   "type": "module",
   "main": "./src/index.js",
+  "repository": "github:brucemcpherson/scriptdb-redux",
+  "homepage": "https://ramblings.mcpher.com/a-proof-of-concept-implementation-of-apps-script-environment-on-node/",
   "scripts": {
     "test": "cd test && npm run test",
     "pub": "npm publish --access public"
   },
   "dependencies": {
-    "@mcpher/gas-flex-cache": "latest"
+    "@mcpher/gas-flex-cache": "^1.1.5"
   }
 }

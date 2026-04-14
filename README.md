@@ -2,7 +2,7 @@
 
 `scriptdb-redux` is a modern resurrection of the original Google Apps Script `ScriptDb` service. It provides a simple, document-oriented database API for permanently storing JavaScript objects. 
 
-It is designed to run seamlessly on both live Google Apps Script environments and local Node.js environments (optionally alongside [@mcpher/gas-fakes](https://github.com/brucemcpherson/gas-fakes)). A key feature is the ability to easily share data across these environments using an Upstash Redis backend.
+It is designed to run seamlessly on both live Google Apps Script environments and local Node.js environments (alongside [@mcpher/gas-fakes](https://github.com/brucemcpherson/gas-fakes)). A key feature is the ability to easily share data across these environments using an Upstash Redis backend.
 
 If you want to review the (now deprecated) original API documentation, you can find it [here on the wayback machine from 2013](https://web.archive.org/web/20131112144543/https://developers.google.com/apps-script/reference/script-db/)
 
@@ -17,16 +17,19 @@ If you want to review the (now deprecated) original API documentation, you can f
 ## Installation
 
 ```bash
+npm install @mcpher/gas-fakes
 npm install @mcpher/scriptdb-redux
 ```
 
 ## Setup
 
-You will need an [Upstash](https://upstash.com/) Redis database (which has a nice free tier). Obtain your REST URL and REST Token. For more information on that you can see [this article](https://ramblings.mcpher.com/sharing-cache-and-properties-between-gas-fakes-and-live-apps-script/). `scriptdb-redux` uses [@mcpher/gas-flex-cache](https://github.com/brucemcpherson/gas-flex-cache) under the hood to provide this functionality.
+You will need an [Upstash](https://upstash.com/) Redis database (which has a nice free tier). Obtain your REST URL and REST Token. For more information on that you can see [this article](https://ramblings.mcpher.com/sharing-cache-and-properties-between-gas-fakes-and-live-apps-script/). `scriptdb-redux` uses [@mcpher/gas-flex-cache](https://github.com/brucemcpherson/gas-fakes/blob/main/GETTING_STARTED.md) under the hood to provide this functionality.
 
-### In Node.js (optionally with `gas-fakes`)
+### In Node.js (with `gas-fakes`)
 
-Make sure you have your Upstash credentials available in your environment or property store. Note that if you are using gas-fakes and using Upstash as your property store, this will already have been set in your .env by gas-fakes init.
+Make sure you have your Upstash credentials available in your environment or property store. Note that if you are using gas-fakes and using Upstash as your property store, this will already have been set in your .env by gas-fakes init. 
+
+To enable gas-fakes, you will need to authenticate with [gas-fakes init/auth](https://github.com/brucemcpherson/gas-fakes/blob/main/GETTING_STARTED.md) and will need an Apps Script manifest (appsscript.json) available with any workspace scopes you intend to use.
 
 ```javascript
 import '@mcpher/gas-fakes';
