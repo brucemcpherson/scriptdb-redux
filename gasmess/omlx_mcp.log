@@ -1,0 +1,38 @@
+[2026-11-25T14:33:42.111Z] Starting oMLX MCP Server...
+[2026-11-25T14:33:42.112Z] Configuration: URL=http://localhost:8000/v1, MODEL=gemma-4-e4b-it-OptiQ-4bit, LOG=/Users/brucemcpherson/Documents/repos/scriptdb-redux/gasmess/omlx_mcp.log
+[2026-11-25T14:33:42.115Z] Received: {"jsonrpc":"2.0","id":1,"method":"server/discover","params":{"_meta":{"io.modelcontextprotocol/clientCapabilities":{"extensions":{"com.google.antigravity/ui":{"entrypoints":["aux_pane","global","file"]},"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}},"elicitation":{"form":{},"url":{}}},"io.modelcontextprotocol/clientInfo":{"name":"antigravity-client","version":"v1.0.0"},"io.modelcontextprotocol/protocolVersion":"2026-07-28"}}}
+[2026-11-25T14:33:42.116Z] Sending: {"jsonrpc":"2.0","id":1,"error":{"code":-32601,"message":"Method not found: server/discover"}}
+[2026-11-25T14:33:42.117Z] Received: {"jsonrpc":"2.0","id":2,"method":"initialize","params":{"clientInfo":{"name":"antigravity-client","version":"v1.0.0"},"protocolVersion":"2025-11-25","capabilities":{"extensions":{"com.google.antigravity/ui":{"entrypoints":["aux_pane","global","file"]},"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}},"elicitation":{"form":{},"url":{}}}}}
+[2026-11-25T14:33:42.117Z] Sending: {"jsonrpc":"2.0","id":2,"result":{"protocolVersion":"2024-11-05","capabilities":{"tools":{}},"serverInfo":{"name":"omlx-mcp","version":"1.0.0"}}}
+[2026-11-25T14:33:42.117Z] Received: {"jsonrpc":"2.0","method":"notifications/initialized","params":{}}
+[2026-11-25T14:33:42.118Z] Initialized notification received
+[2026-11-25T14:33:42.118Z] Received: {"jsonrpc":"2.0","id":3,"method":"tools/list","params":{}}
+[2026-11-25T14:33:42.118Z] Sending: {"jsonrpc":"2.0","id":3,"result":{"tools":[{"name":"query_local_model","description":"Send a prompt or coding instruction to the locally running oMLX model and get its response.","inputSchema":{"type":"object","properties":{"prompt":{"type":"string","description":"The prompt or instruction to send to the local model."}},"required":["prompt"]}}]}}
+[2026-11-25T14:33:42.231Z] Starting oMLX MCP Server...
+[2026-11-25T14:33:42.231Z] Configuration: URL=http://localhost:8000/v1, MODEL=gemma-4-e4b-it-OptiQ-4bit, LOG=/Users/brucemcpherson/Documents/repos/scriptdb-redux/gasmess/omlx_mcp.log
+[2026-11-25T14:33:42.234Z] Received: {"jsonrpc":"2.0","id":1,"method":"server/discover","params":{"_meta":{"io.modelcontextprotocol/clientCapabilities":{"extensions":{"com.google.antigravity/ui":{"entrypoints":["aux_pane","global","file"]},"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}},"elicitation":{"form":{},"url":{}}},"io.modelcontextprotocol/clientInfo":{"name":"antigravity-client","version":"v1.0.0"},"io.modelcontextprotocol/protocolVersion":"2026-07-28"}}}
+[2026-11-25T14:33:42.234Z] Sending: {"jsonrpc":"2.0","id":1,"error":{"code":-32601,"message":"Method not found: server/discover"}}
+[2026-11-25T14:33:42.234Z] Received: {"jsonrpc":"2.0","id":2,"method":"initialize","params":{"clientInfo":{"name":"antigravity-client","version":"v1.0.0"},"protocolVersion":"2025-11-25","capabilities":{"extensions":{"com.google.antigravity/ui":{"entrypoints":["aux_pane","global","file"]},"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}},"elicitation":{"form":{},"url":{}}}}}
+[2026-11-25T14:33:42.235Z] Sending: {"jsonrpc":"2.0","id":2,"result":{"protocolVersion":"2024-11-05","capabilities":{"tools":{}},"serverInfo":{"name":"omlx-mcp","version":"1.0.0"}}}
+[2026-11-25T14:33:42.235Z] Received: {"jsonrpc":"2.0","method":"notifications/initialized","params":{}}
+[2026-11-25T14:33:42.235Z] Initialized notification received
+[2026-11-25T14:33:42.235Z] Received: {"jsonrpc":"2.0","id":3,"method":"tools/list","params":{}}
+[2026-11-25T14:33:42.235Z] Sending: {"jsonrpc":"2.0","id":3,"result":{"tools":[{"name":"query_local_model","description":"Send a prompt or coding instruction to the locally running oMLX model and get its response.","inputSchema":{"type":"object","properties":{"prompt":{"type":"string","description":"The prompt or instruction to send to the local model."}},"required":["prompt"]}}]}}
+[2026-11-25T14:33:42.338Z] Starting oMLX MCP Server...
+[2026-11-25T14:33:42.339Z] Configuration: URL=http://localhost:8000/v1, MODEL=gemma-4-e4b-it-OptiQ-4bit, LOG=/Users/brucemcpherson/Documents/repos/scriptdb-redux/gasmess/omlx_mcp.log
+[2026-11-25T14:33:42.345Z] Received: {"jsonrpc":"2.0","id":1,"method":"server/discover","params":{"_meta":{"io.modelcontextprotocol/clientCapabilities":{"extensions":{"com.google.antigravity/ui":{"entrypoints":["aux_pane","global","file"]},"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}},"elicitation":{"form":{},"url":{}}},"io.modelcontextprotocol/clientInfo":{"name":"antigravity-client","version":"v1.0.0"},"io.modelcontextprotocol/protocolVersion":"2026-07-28"}}}
+[2026-11-25T14:33:42.345Z] Sending: {"jsonrpc":"2.0","id":1,"error":{"code":-32601,"message":"Method not found: server/discover"}}
+[2026-11-25T14:33:42.347Z] Received: {"jsonrpc":"2.0","id":2,"method":"initialize","params":{"clientInfo":{"name":"antigravity-client","version":"v1.0.0"},"protocolVersion":"2025-11-25","capabilities":{"extensions":{"com.google.antigravity/ui":{"entrypoints":["aux_pane","global","file"]},"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}},"elicitation":{"form":{},"url":{}}}}}
+[2026-11-25T14:33:42.347Z] Sending: {"jsonrpc":"2.0","id":2,"result":{"protocolVersion":"2024-11-05","capabilities":{"tools":{}},"serverInfo":{"name":"omlx-mcp","version":"1.0.0"}}}
+[2026-11-25T14:33:42.347Z] Received: {"jsonrpc":"2.0","method":"notifications/initialized","params":{}}
+[2026-11-25T14:33:42.347Z] Initialized notification received
+[2026-11-25T14:33:42.347Z] Received: {"jsonrpc":"2.0","id":3,"method":"tools/list","params":{}}
+[2026-11-25T14:33:42.347Z] Sending: {"jsonrpc":"2.0","id":3,"result":{"tools":[{"name":"query_local_model","description":"Send a prompt or coding instruction to the locally running oMLX model and get its response.","inputSchema":{"type":"object","properties":{"prompt":{"type":"string","description":"The prompt or instruction to send to the local model."}},"required":["prompt"]}}]}}
+[2026-11-25T14:33:43.314Z] Starting oMLX MCP Server...
+[2026-11-25T14:33:43.314Z] Configuration: URL=http://localhost:8000/v1, MODEL=gemma-4-e4b-it-OptiQ-4bit, LOG=/Users/brucemcpherson/Documents/repos/scriptdb-redux/gasmess/omlx_mcp.log
+[2026-11-25T14:33:43.317Z] Received: {"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{"roots":{"listChanged":true}},"clientInfo":{"name":"gemini-cli-mcp-client","version":"unknown"}},"jsonrpc":"2.0","id":0}
+[2026-11-25T14:33:43.317Z] Sending: {"jsonrpc":"2.0","id":0,"result":{"protocolVersion":"2024-11-05","capabilities":{"tools":{}},"serverInfo":{"name":"omlx-mcp","version":"1.0.0"}}}
+[2026-11-25T14:33:43.319Z] Received: {"method":"notifications/initialized","jsonrpc":"2.0"}
+[2026-11-25T14:33:43.319Z] Initialized notification received
+[2026-11-25T14:33:43.320Z] Received: {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+[2026-11-25T14:33:43.320Z] Sending: {"jsonrpc":"2.0","id":1,"result":{"tools":[{"name":"query_local_model","description":"Send a prompt or coding instruction to the locally running oMLX model and get its response.","inputSchema":{"type":"object","properties":{"prompt":{"type":"string","description":"The prompt or instruction to send to the local model."}},"required":["prompt"]}}]}}
